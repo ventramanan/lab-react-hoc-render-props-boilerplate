@@ -1,3 +1,20 @@
-.buttons{
+.normal{
   display: flex;
+}
+
+.render{
+  display: flex;
+}
+
+.buttons{
+  border: 2px solid rgb(27, 14, 202);
+  height: 30vh;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-top: 30vh;
+  background-color: rgb(217, 11, 46);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
